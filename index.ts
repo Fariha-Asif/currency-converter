@@ -19,13 +19,13 @@ let user_answer = await inquirer.prompt([{
   name: "from",
   type: "list",
   message: "Enter from currency",
-  choices: ["USD", "PKR", "GPB_Pound", "EURO", "JAP_YEN", "Saudi_Rial", "Turkish_Lira", "Chinese_Yuan", "UAE_Dirham", "Kuwait_Dinar"],
+  choices: ["USD", "PKR", "GBP_Pound", "EURO", "JAP_YEN", "Saudi_Rial", "Turkish_Lira", "Chinese_Yuan", "UAE_Dirham", "Kuwait_Dinar"],
 }, 
 {
     name: "to",
     type: "list",
     message: "Enter to currency",
-    choices: ["USD", "PKR", "GPB_Pound", "EURO", "JAP_YEN", "Saudi_Rial", "Turkish_Lira", "Chinese_Yuan", "UAE_Dirham", "Kuwait_Dinar"],
+    choices: ["USD", "PKR", "GBP_Pound", "EURO", "JAP_YEN", "Saudi_Rial", "Turkish_Lira", "Chinese_Yuan", "UAE_Dirham", "Kuwait_Dinar"],
   },
 {
     name: "amount",
